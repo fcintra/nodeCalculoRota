@@ -1,0 +1,25 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Cintra",
+  "license": "ISC",
+  "dependencies": {
+    "bo": "^0.0.3",
+    "body-parser": "^1.19.1",
+    "bootstrap": "^5.1.3",
+    "consign": "^0.1.6",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
